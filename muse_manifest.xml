@@ -1,0 +1,71 @@
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="rewise.ca" resolutions="1x" timestamp="1572191905388">
+  <folder name="css">
+    <file name="site_global.css" crc="4009175282"/>
+    <file name="index.css" crc="4005721414" ref="index"/>
+    <file name="nomq_index.css" crc="3892787957" ref="index"/>
+    <file name="iefonts_index.css" crc="3824530138" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="340535759" ref="index"/>
+    <file name="whatinput.js" crc="86476730" ref="index"/>
+    <file name="museconfig.js" crc="4286661555" ref="index"/>
+    <file name="jquery.watch.js" crc="51536988" ref="index"/>
+    <file name="jquery.museresponsive.js" crc="527716135" ref="index"/>
+    <file name="require.js" crc="7928878" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="rewise3-crop-u919.png" crc="4081107540" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="on40s80-crop-u1032.png" crc="4031049349" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="water-pollution-with-plastic-bags-river_1308-33737.jpg" crc="394518239" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="list.png" crc="3934099530" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="2966327.jpg" crc="4121778373" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="19906-nsnpwr.png" crc="3925609038" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="20617164_1477567695619835_6902816393329541025_o351x354.png" crc="240913103" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="3919-crop-u424.png" crc="3887724769" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="2742878-crop-u385.png" crc="4077370500" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="background-shapes1.gif" crc="184288897" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="rewise3.png" crc="4017762396" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="on40s80-crop-u10322.png" crc="4069622259" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="3919-crop-u4242.png" crc="405624984" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="20617164_1477567695619835_6902816393329541025_o-crop-u369.png" crc="4275554274" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="2742878-crop-u3852.png" crc="4077370500" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+  </folder>
+  <file name="index.html" crc="246662442" seo="true" mt="1572189596944" redirect="true"/>
+</manifest>
