@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="rewise.ca" resolutions="1x" timestamp="1572313148473">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="rewise.ca" resolutions="1x" timestamp="1572313701715">
   <folder name="css">
     <file name="site_global.css" crc="4009175282"/>
     <file name="index.css" crc="281809501" ref="index"/>
