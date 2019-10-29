@@ -1,7 +1,7 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="rewise.ca" resolutions="1x" timestamp="1572306940616">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="rewise.ca" resolutions="1x" timestamp="1572313148473">
   <folder name="css">
     <file name="site_global.css" crc="4009175282"/>
-    <file name="index.css" crc="196531794" ref="index"/>
+    <file name="index.css" crc="281809501" ref="index"/>
     <file name="nomq_index.css" crc="4157250689" ref="index"/>
     <file name="iefonts_index.css" crc="3824530138" ref="index"/>
   </folder>
@@ -72,12 +72,12 @@
     <file name="3919-crop-u15412.png" crc="405624984" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="rewisephoto-crop-u369.png" crc="4138465747" seo="true" ref="index">
+    <file name="rewisephoto-crop-u369.png" crc="4229097378" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="rewisephoto2-crop-u1538.png" crc="4009394545" seo="true" ref="index">
+    <file name="rewisephoto2-crop-u1538.png" crc="4043168380" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="4288330311" seo="true" mt="1572306904546" redirect="true"/>
+  <file name="index.html" crc="152108991" seo="true" mt="1572313117737" redirect="true"/>
 </manifest>
