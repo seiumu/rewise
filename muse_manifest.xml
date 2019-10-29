@@ -1,11 +1,11 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="rewise.ca,rewise.me,seiumu.github.io/rewise/index.html,seiumu.github.io/rewise/phone/index.html" resolutions="1x" timestamp="1572363138938">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="rewise.ca,rewise.me,seiumu.github.io/rewise/index.html,seiumu.github.io/rewise/phone/index.html" resolutions="1x" timestamp="1572364513719">
   <folder name="phone">
     <folder name="css">
-      <file name="index.css" crc="209470928" ref="phone>index"/>
+      <file name="index.css" crc="3921896050" ref="phone>index"/>
       <file name="iefonts_index.css" crc="3824530138" ref="phone>index"/>
-      <file name="nomq_index.css" crc="155813392" ref="phone>index"/>
+      <file name="nomq_index.css" crc="5534432" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="59286120" seo="true" mt="1572363110292" redirect="true"/>
+    <file name="index.html" crc="4157153890" seo="true" mt="1572364410042" redirect="true"/>
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="3909055994"/>
@@ -84,10 +84,10 @@
     <file name="rewise3-crop-u1723.png" crc="4081107540" seo="true" ref="phone>index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="on40s80-crop-u1714.png" crc="4183046506" seo="true" ref="phone>index">
+    <file name="on40s80-crop-u1714.png" crc="327539563" seo="true" ref="phone>index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="water-pollution-with-plastic-bags-river_1308-33737-crop-u1805.jpg" crc="4286691974" seo="true" ref="phone>index">
+    <file name="water-pollution-with-plastic-bags-river_1308-33737-crop-u1805.jpg" crc="248246880" seo="true" ref="phone>index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="on40s80.png" crc="142130251" seo="true" ref="index">
@@ -95,7 +95,6 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="2966327380x235.jpg" crc="180227443" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
     <file name="rewisephoto-crop-u2233.png" crc="406385005" seo="true" ref="phone>index">
@@ -139,6 +138,9 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="2742878-crop-u23062.png" crc="212144139" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="2966327420x260.jpg" crc="450662988" seo="true" ref="phone>index">
       <caption webpage="index" alt=""/>
     </file>
   </folder>
