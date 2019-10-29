@@ -5,11 +5,9 @@
     <lastmod>2019-10-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://rewise.ca/phone/index.html"/>
     <image:image>
       <image:loc>http://rewise.ca/images/rewise3-crop-u919.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://rewise.ca/images/on40s80-crop-u1032.png</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://rewise.ca/images/water-pollution-with-plastic-bags-river_1308-33737.jpg</image:loc>
@@ -31,9 +29,6 @@
     </image:image>
     <image:image>
       <image:loc>http://rewise.ca/images/rewise3.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://rewise.ca/images/on40s80-crop-u10322.png</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://rewise.ca/images/3919-crop-u4242.png</image:loc>
@@ -58,6 +53,9 @@
     </image:image>
     <image:image>
       <image:loc>http://rewise.ca/images/rewisephoto2-crop-u1538.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rewise.ca/images/on40s80.png</image:loc>
     </image:image>
   </url>
 </urlset>
