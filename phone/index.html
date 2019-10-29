@@ -13,17 +13,18 @@
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "require.js", "index.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "jquery.museresponsive.js", "require.js", "index.css"], "outOfDate":[]};
 </script>
   
   <link rel="canonical" href="http://rewise.ca/index.html"/>
   <title>Rewise</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="../css/site_global.css?crc=3909055994"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4136069599" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=3792589505" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
-  <link rel="stylesheet" type="text/css" href="css/iefonts_index.css?crc=315813974"/>
+  <link rel="stylesheet" type="text/css" href="css/iefonts_index.css?crc=3824530138"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=4282594251" id="nomq_pagesheet"/>
   <![endif]-->
   <!-- Other scripts -->
   <script type="text/javascript">
@@ -40,285 +41,438 @@ var checkBrowser=navigator.userAgent.toLowerCase();var isAndroid=checkBrowser.in
  </head>
  <body>
 
-  <div class="clearfix borderbox" id="page"><!-- column -->
-   <div class="browser_width colelem" id="u1717-bw">
-    <div class="clearfix" id="u1717"><!-- group -->
-     <div class="clip_frame grpelem" id="u1723" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- image -->
-      <img class="block" id="u1723_img" src="../images/rewise3-crop-u1723.png?crc=4081107540" alt="" width="63" height="67"/>
-     </div>
-     <div class="clearfix grpelem" id="u1722-7" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- content -->
-      <p id="u1722-2">REWISE</p>
-      <p id="u1722-5">&nbsp;<span id="u1722-4">Canada</span></p>
-     </div>
-     <div class="clearfix grpelem" id="pu1718-4"><!-- column -->
-      <a class="nonblock nontext anim_swing clearfix colelem" id="u1718-4" href="index.html#whatwedo"><!-- content --><p>What we do</p></a>
-      <div class="clearfix colelem" id="u1719-4"><!-- content -->
-       <p>Why you need us</p>
-      </div>
-      <div class="clearfix colelem" id="u1721-4"><!-- content -->
-       <p>Who we are</p>
-      </div>
-      <div class="clearfix colelem" id="u1720-4"><!-- content -->
-       <p>Get in touch</p>
+  <div class="breakpoint active" id="bp_infinity" data-min-width="381"><!-- responsive breakpoint node -->
+   <div class="clearfix" id="page"><!-- column -->
+    <div class="position_content" id="page_position_content">
+     <div class="browser_width colelem" id="u1717-bw">
+      <div class="clearfix" id="u1717"><!-- group -->
+       <div class="clip_frame grpelem" id="u1723"><!-- image -->
+        <img class="block temp_no_img_src" id="u1723_img" data-orig-src="../images/rewise3-crop-u1723.png?crc=4081107540" alt="" width="63" height="67" src="../images/blank.gif?crc=4208392903"/>
+       </div>
+       <div class="clearfix grpelem shared_content" id="u1722-7" data-content-guid="u1722-7_content"><!-- content -->
+        <p id="u1722-2">REWISE</p>
+        <p id="u1722-5">&nbsp;<span id="u1722-4">Canada</span></p>
+       </div>
+       <div class="clearfix grpelem shared_content" id="pu1718-4" data-content-guid="pu1718-4_content"><!-- column -->
+        <a class="nonblock nontext anim_swing clearfix colelem" id="u1718-4" href="index.html#whatwedo"><!-- content --><p>What we do</p></a>
+        <a class="nonblock nontext anim_swing clearfix colelem" id="u1719-4" href="index.html#whyyouneedus"><!-- content --><p>Why you need us</p></a>
+        <a class="nonblock nontext anim_swing clearfix colelem" id="u1721-4" href="index.html#whoweare"><!-- content --><p>Who we are</p></a>
+        <a class="nonblock nontext anim_swing clearfix colelem" id="u1720-4" href="index.html#getintouch"><!-- content --><p>Get in touch</p></a>
+       </div>
       </div>
      </div>
-    </div>
-   </div>
-   <div class="clearfix colelem" id="pwhatwedo"><!-- group -->
-    <a class="anchor_item grpelem" id="whatwedo" data-sizePolicy="fixed" data-pintopage="page_fluidx"></a>
-    <div class="clearfix grpelem" id="u1795"><!-- group -->
-     <div class="clearfix grpelem" id="u1716-10" data-sizePolicy="fluidWidth" data-pintopage="page_fixedCenter"><!-- content -->
-      <p id="u1716-2">Turing missed</p>
-      <p id="u1716-4">opportunities</p>
-      <p id="u1716-8"><span id="u1716-5">into</span> <span id="u1716-7">assets</span></p>
-     </div>
-     <div class="clip_frame clearfix grpelem" id="u1714" data-sizePolicy="fixed" data-pintopage="page_fixedCenter"><!-- image -->
-      <img class="position_content" id="u1714_img" src="../images/on40s80-crop-u1714.png?crc=4183046506" alt="" width="217" height="117"/>
-     </div>
-    </div>
-   </div>
-   <div class="clearfix colelem" id="pu1802-4"><!-- group -->
-    <div class="clearfix grpelem" id="u1802-4"><!-- content -->
-     <p>What we do?</p>
-    </div>
-    <div class="clearfix grpelem" id="pu1804-4"><!-- column -->
-     <div class="clearfix colelem" id="u1804-4" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content -->
-      <p>Data-intensive corporate research</p>
-     </div>
-     <div class="clearfix colelem" id="u1803-7"><!-- content -->
-      <p>Our main specialization is <span id="u1803-2">data-intensive corporate research.</span></p>
-      <p>Whether you lead an agribusiness, a construction firm, a lumber mill, or whatever other manufacturing or non-manufacturing business - we can help you. Any business is built around some processes, which require some inputs to produce some outputs. As a result, any part of your activity has an efficiency level. Depending how this level compares to the best available practices, we determine what actions may help and determine which of solutions could be the most technically and economically effective.</p>
-     </div>
-    </div>
-   </div>
-   <div class="clearfix colelem" id="pu1805"><!-- group -->
-    <div class="clip_frame grpelem" id="u1805" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- image -->
-     <img class="block" id="u1805_img" src="../images/water-pollution-with-plastic-bags-river_1308-33737-crop-u1805.jpg?crc=4286691974" alt="" width="379" height="211"/>
-    </div>
-    <div class="clearfix grpelem" id="u1807-5" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content -->
-     <p>From pains to <span id="u1807-2">gains</span></p>
-    </div>
-   </div>
-   <div class="clearfix colelem" id="pu1866-4"><!-- group -->
-    <div class="clearfix grpelem" id="u1866-4"><!-- content -->
-     <p>Sample tasks:</p>
-    </div>
-    <div class="clearfix grpelem" id="u1867-17" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content -->
-     <p id="u1867-3"><span id="u1867">Industry analysis/Market studies </span>(studying consumer demands, profiling consumers, and performing market segmentation; collecting competitive intelligence; developing expansion strategy);</p>
-     <p id="u1867-4">&nbsp;</p>
-     <p id="u1867-7"><span id="u1867-5">Cost optimization</span> (determining key inefficiencies in your operations and developing solutions to address them; business process modeling and standardization for waste reduction);</p>
-     <p id="u1867-8">&nbsp;</p>
-     <p id="u1867-11"><span id="u1867-9">Business automation </span>(assisting decision-making with analytical geo-spatial and other visualizations; developing operation automation mechanisms using data coming from sensors and video-taping).</p>
-     <p id="u1867-12">&nbsp;</p>
-     <p id="u1867-15"><span id="u1867-13">Investment analysis </span>(feasibility studies, swot analysis, financial predictions)</p>
-    </div>
-   </div>
-   <div class="clearfix colelem" id="ppu1860"><!-- group -->
-    <div class="clearfix grpelem" id="pu1860"><!-- group -->
-     <div class="clearfix grpelem" id="u1860"><!-- group -->
-      <div class="grpelem" id="u1861" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- simple frame --></div>
-      <div class="clearfix grpelem" id="u1862-4"><!-- content -->
-       <p>Cost optimization</p>
+     <div class="clearfix colelem" id="u1795"><!-- group -->
+      <div class="clearfix grpelem shared_content" id="u1716-10" data-content-guid="u1716-10_content"><!-- content -->
+       <p id="u1716-2">Turing missed</p>
+       <p id="u1716-4">opportunities</p>
+       <p id="u1716-8"><span id="u1716-5">into</span> <span id="u1716-7">assets</span></p>
+      </div>
+      <div class="clip_frame clearfix grpelem" id="u1714"><!-- image -->
+       <img class="position_content temp_no_img_src" id="u1714_img" data-orig-src="../images/on40s80-crop-u1714.png?crc=4183046506" alt="" width="217" height="117" src="../images/blank.gif?crc=4208392903"/>
       </div>
      </div>
-     <div class="clearfix grpelem" id="u1869-4" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content -->
-      <p>2</p>
-     </div>
-    </div>
-    <div class="grpelem" id="u1858" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- simple frame --></div>
-    <div class="clearfix grpelem" id="u1859-6"><!-- content -->
-     <p>Market</p>
-     <p>sudies</p>
-    </div>
-    <div class="clearfix grpelem" id="u1868-4" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content -->
-     <p>1</p>
-    </div>
-   </div>
-   <div class="clearfix colelem" id="ppu1965"><!-- group -->
-    <div class="clearfix grpelem" id="pu1965"><!-- group -->
-     <div class="clearfix grpelem" id="u1965"><!-- group -->
-      <div class="grpelem" id="u1966" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- simple frame --></div>
-      <div class="clearfix grpelem" id="u1967-4"><!-- content -->
-       <p>Investment analysis</p>
+     <a class="anchor_item colelem shared_content" id="whatwedo" data-content-guid="whatwedo_content"></a>
+     <div class="clearfix colelem" id="pu1802-4"><!-- group -->
+      <div class="clearfix grpelem shared_content" id="u1802-4" data-content-guid="u1802-4_content"><!-- content -->
+       <p>What we do?</p>
+      </div>
+      <div class="clearfix grpelem" id="pu1804-4"><!-- column -->
+       <div class="clearfix colelem shared_content" id="u1804-4" data-content-guid="u1804-4_content"><!-- content -->
+        <p>Data-intensive corporate research</p>
+       </div>
+       <div class="clearfix colelem shared_content" id="u1803-7" data-content-guid="u1803-7_content"><!-- content -->
+        <p>Our main specialization is <span id="u1803-2">data-intensive corporate research.</span></p>
+        <p>Whether you lead an agribusiness, a construction firm, a lumber mill, or whatever other manufacturing or non-manufacturing business - we can help you. Any business is built around some processes, which require some inputs to produce some outputs. As a result, any part of your activity has an efficiency level. Depending how this level compares to the best available practices, we determine what actions may help and determine which of solutions could be the most technically and economically effective.</p>
+       </div>
       </div>
      </div>
-     <div class="clearfix grpelem" id="u1969-4" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content -->
-      <p>4</p>
+     <div class="clearfix colelem" id="pu1805"><!-- group -->
+      <div class="clip_frame grpelem" id="u1805"><!-- image -->
+       <img class="block temp_no_img_src" id="u1805_img" data-orig-src="../images/water-pollution-with-plastic-bags-river_1308-33737-crop-u1805.jpg?crc=4286691974" alt="" width="379" height="211" src="../images/blank.gif?crc=4208392903"/>
+      </div>
+      <div class="clearfix grpelem shared_content" id="u1807-5" data-content-guid="u1807-5_content"><!-- content -->
+       <p>From pains to <span id="u1807-2">gains</span></p>
+      </div>
      </div>
-    </div>
-    <div class="grpelem" id="u1963" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- simple frame --></div>
-    <div class="clearfix grpelem" id="u1964-4"><!-- content -->
-     <p>Business automation</p>
-    </div>
-    <div class="clearfix grpelem" id="u1968-4" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content -->
-     <p>3</p>
-    </div>
-   </div>
-   <div class="clearfix colelem" id="pu1846-4"><!-- group -->
-    <div class="clearfix grpelem" id="u1846-4"><!-- content -->
-     <p>Methods we use:</p>
-    </div>
-    <div class="clearfix grpelem" id="u1847-4"><!-- content -->
-     <p>Our advice and actions always rely on some stringent statistical analysis of your operational data, mathematical modeling, and simulations. We use plain language to explain the actual problems and the potential solutions, which should best address your specific contextual needs.</p>
-    </div>
-   </div>
-   <div class="clearfix colelem" id="pu1984"><!-- group -->
-    <div class="grpelem" id="u1984" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- simple frame --></div>
-    <div class="clearfix grpelem" id="u1985-4"><!-- content -->
-     <p>Mathematical modeling</p>
-    </div>
-    <div class="clearfix grpelem" id="u1986"><!-- group -->
-     <div class="grpelem" id="u1987" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- simple frame --></div>
-     <div class="clearfix grpelem" id="u1988-4"><!-- content -->
-      <p>Simulations for automation</p>
+     <div class="clearfix colelem" id="pu1866-4"><!-- group -->
+      <div class="clearfix grpelem shared_content" id="u1866-4" data-content-guid="u1866-4_content"><!-- content -->
+       <p>Sample tasks:</p>
+      </div>
+      <div class="clearfix grpelem shared_content" id="u1867-17" data-content-guid="u1867-17_content"><!-- content -->
+       <p id="u1867-3"><span id="u1867">Industry analysis/Market studies </span>(studying consumer demands, profiling consumers, and performing market segmentation; collecting competitive intelligence; developing expansion strategy);</p>
+       <p id="u1867-4">&nbsp;</p>
+       <p id="u1867-7"><span id="u1867-5">Cost optimization</span> (determining key inefficiencies in your operations and developing solutions to address them; business process modeling and standardization for waste reduction);</p>
+       <p id="u1867-8">&nbsp;</p>
+       <p id="u1867-11"><span id="u1867-9">Business automation </span>(assisting decision-making with analytical geo-spatial and other visualizations; developing operation automation mechanisms using data coming from sensors and video-taping).</p>
+       <p id="u1867-12">&nbsp;</p>
+       <p id="u1867-15"><span id="u1867-13">Investment analysis </span>(feasibility studies, swot analysis, financial predictions)</p>
+      </div>
      </div>
-    </div>
-   </div>
-   <div class="clearfix colelem" id="pu1991"><!-- group -->
-    <div class="grpelem" id="u1991" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- simple frame --></div>
-    <div class="clearfix grpelem" id="u1992-4"><!-- content -->
-     <p>Statistical analysis</p>
-    </div>
-    <div class="clearfix grpelem" id="u1993"><!-- group -->
-     <div class="grpelem" id="u1994" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- simple frame --></div>
-     <div class="clearfix grpelem" id="u1995-4"><!-- content -->
-      <p>Machine learning</p>
+     <div class="clearfix colelem" id="pu2457"><!-- group -->
+      <div class="clearfix grpelem" id="u2457"><!-- group -->
+       <div class="clearfix grpelem" id="u1858"><!-- column -->
+        <div class="clearfix colelem shared_content" id="u1868-4" data-content-guid="u1868-4_content"><!-- content -->
+         <p>1</p>
+        </div>
+        <div class="clearfix colelem shared_content" id="u1859-6" data-content-guid="u1859-6_content"><!-- content -->
+         <p>Market</p>
+         <p>sudies</p>
+        </div>
+       </div>
+      </div>
+      <div class="clearfix grpelem" id="u2469"><!-- group -->
+       <div class="clearfix grpelem" id="u1861"><!-- group -->
+        <div class="clearfix grpelem shared_content" id="u1862-4" data-content-guid="u1862-4_content"><!-- content -->
+         <p>Cost optimization</p>
+        </div>
+        <div class="clearfix grpelem shared_content" id="u1869-4" data-content-guid="u1869-4_content"><!-- content -->
+         <p>2</p>
+        </div>
+       </div>
+      </div>
      </div>
-    </div>
-   </div>
-   <div class="clearfix colelem" id="u2044-6"><!-- content -->
-    <p>Our</p>
-    <p>approach:</p>
-   </div>
-   <div class="clearfix colelem" id="pu2046"><!-- group -->
-    <div class="clip_frame grpelem" id="u2046" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- image -->
-     <img class="block" id="u2046_img" src="../images/list196x196.png?crc=185660323" alt="" width="195" height="195"/>
-    </div>
-    <div class="clearfix grpelem" id="pu2045-4"><!-- column -->
-     <div class="clearfix colelem" id="u2045-4" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content -->
+     <div class="clearfix colelem" id="pu2465"><!-- group -->
+      <div class="clearfix grpelem" id="u2465"><!-- group -->
+       <div class="clearfix grpelem" id="u1963"><!-- column -->
+        <div class="clearfix colelem shared_content" id="u1968-4" data-content-guid="u1968-4_content"><!-- content -->
+         <p>3</p>
+        </div>
+        <div class="clearfix colelem shared_content" id="u1964-4" data-content-guid="u1964-4_content"><!-- content -->
+         <p>Business automation</p>
+        </div>
+       </div>
+      </div>
+      <div class="clearfix grpelem" id="u2473"><!-- group -->
+       <div class="clearfix grpelem" id="u1965"><!-- group -->
+        <div class="clearfix grpelem" id="u1966"><!-- group -->
+         <div class="clearfix grpelem shared_content" id="u1967-4" data-content-guid="u1967-4_content"><!-- content -->
+          <p>Investment analysis</p>
+         </div>
+        </div>
+       </div>
+       <div class="clearfix grpelem shared_content" id="u1969-4" data-content-guid="u1969-4_content"><!-- content -->
+        <p>4</p>
+       </div>
+      </div>
+     </div>
+     <div class="clearfix colelem shared_content" id="pu1846-4" data-content-guid="pu1846-4_content"><!-- group -->
+      <div class="clearfix grpelem" id="u1846-4"><!-- content -->
+       <p>Methods we use:</p>
+      </div>
+      <div class="clearfix grpelem" id="u1847-4"><!-- content -->
+       <p>Our advice and actions always rely on some stringent statistical analysis of your operational data, mathematical modeling, and simulations. We use plain language to explain the actual problems and the potential solutions, which should best address your specific contextual needs.</p>
+      </div>
+     </div>
+     <div class="clearfix colelem" id="pu2477"><!-- group -->
+      <div class="clearfix grpelem" id="u2477"><!-- group -->
+       <div class="clearfix grpelem" id="u1984"><!-- group -->
+        <div class="clearfix grpelem shared_content" id="u1985-4" data-content-guid="u1985-4_content"><!-- content -->
+         <p>Mathematical modeling</p>
+        </div>
+       </div>
+      </div>
+      <div class="clearfix grpelem" id="u1986"><!-- group -->
+       <div class="clearfix grpelem" id="u1987"><!-- group -->
+        <div class="clearfix grpelem shared_content" id="u1988-4" data-content-guid="u1988-4_content"><!-- content -->
+         <p>Simulations for automation</p>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="clearfix colelem" id="pu2481"><!-- group -->
+      <div class="clearfix grpelem" id="u2481"><!-- group -->
+       <div class="clearfix grpelem" id="u1991"><!-- group -->
+        <div class="clearfix grpelem shared_content" id="u1992-4" data-content-guid="u1992-4_content"><!-- content -->
+         <p>Statistical analysis</p>
+        </div>
+       </div>
+      </div>
+      <div class="clearfix grpelem" id="u1993"><!-- group -->
+       <div class="clearfix grpelem" id="u1994"><!-- group -->
+        <div class="clearfix grpelem shared_content" id="u1995-4" data-content-guid="u1995-4_content"><!-- content -->
+         <p>Machine learning</p>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="clearfix colelem shared_content" id="u2044-6" data-content-guid="u2044-6_content"><!-- content -->
+      <p>Our</p>
+      <p>approach:</p>
+     </div>
+     <div class="clearfix colelem shared_content" id="u2045-4" data-content-guid="u2045-4_content"><!-- content -->
       <p>A system of nine clear steps</p>
      </div>
-     <div class="clearfix colelem" id="u2042"><!-- group -->
-      <div class="clearfix grpelem" id="u2043-21"><!-- content -->
-       <p>1. Analyze your operations</p>
-       <p>2. Identify problems</p>
-       <p>3. Assess their costs</p>
-       <p>4. Determine potential solutions</p>
-       <p>5. Identify best options</p>
-       <p>6. Design an action plan</p>
-       <p>7. Assist with implementation</p>
-       <p>8. Evaluate outcomes</p>
-       <p>9. <span id="u2043-18">REWISE</span></p>
+     <div class="clearfix colelem" id="pu2042"><!-- group -->
+      <div class="clearfix grpelem shared_content" id="u2042" data-content-guid="u2042_content"><!-- group -->
+       <div class="clearfix grpelem" id="u2043-21"><!-- content -->
+        <p>1. Analyze your operations</p>
+        <p>2. Identify problems</p>
+        <p>3. Assess their costs</p>
+        <p>4. Determine potential solutions</p>
+        <p>5. Identify best options</p>
+        <p>6. Design an action plan</p>
+        <p>7. Assist with implementation</p>
+        <p>8. Evaluate outcomes</p>
+        <p>9. <span id="u2043-18">REWISE</span></p>
+       </div>
+      </div>
+      <div class="clip_frame grpelem shared_content" id="u2046" data-content-guid="u2046_content"><!-- image -->
+       <img class="block temp_no_img_src" id="u2046_img" data-orig-src="../images/list196x196.png?crc=185660323" alt="" width="195" height="195" src="../images/blank.gif?crc=4208392903"/>
+      </div>
+     </div>
+     <div class="clearfix colelem" id="pu2101"><!-- group -->
+      <div class="clip_frame grpelem shared_content" id="u2101" data-content-guid="u2101_content"><!-- image -->
+       <img class="block temp_no_img_src" id="u2101_img" data-orig-src="../images/2966327380x235.jpg?crc=180227443" alt="" width="380" height="235" src="../images/blank.gif?crc=4208392903"/>
+      </div>
+      <div class="clearfix grpelem shared_content" id="u2104-8" data-content-guid="u2104-8_content"><!-- content -->
+       <p>Rewising</p>
+       <p>your</p>
+       <p>business</p>
+      </div>
+      <div class="clearfix grpelem shared_content" id="u2149-6" data-content-guid="u2149-6_content"><!-- content -->
+       <p id="u2149-2">REWISE</p>
+       <p id="u2149-4"><span id="u2149-3">Canada</span></p>
+      </div>
+     </div>
+     <a class="anchor_item colelem shared_content" id="whyyouneedus" data-content-guid="whyyouneedus_content"></a>
+     <div class="clearfix colelem shared_content" id="u2162-4" data-content-guid="u2162-4_content"><!-- content -->
+      <p>Why you need us?</p>
+     </div>
+     <div class="clearfix colelem shared_content" id="u2160-7" data-content-guid="u2160-7_content"><!-- content -->
+      <p>We believe that organizational data is a valuable source of knowledge that should foster growth. Unfortunately, this resource is often not given a proper value because high-quality analytics requires substantial cognitive effort, processing power, and upfront investment that few organizations may bear. We help to address that by offering both a top-level and affordable way to improve.</p>
+      <p>&nbsp;</p>
+      <p>We use your data to identify the key inefficiencies in your current activities that require optimization. We design a tailored solution to target those issues and implement it. Our services are paid from the added value that our solution generates. Basically, we invest in your performance and your growth is our target.</p>
+     </div>
+     <div class="clearfix colelem shared_content" id="u2158-6" data-content-guid="u2158-6_content"><!-- content -->
+      <p>Our key</p>
+      <p>strengths:</p>
+     </div>
+     <div class="clearfix colelem shared_content" id="u2159-20" data-content-guid="u2159-20_content"><!-- content -->
+      <p id="u2159-4"><span id="u2159">01 /</span><span id="u2159-2"> </span><span id="u2159-3">VALUABLE</span></p>
+      <p id="u2159-6">We take it from your current state of activity, turn it into a valuable data source, and use optimization mechanisms to bring you to a new level of performance.</p>
+      <p id="u2159-7">&nbsp;</p>
+      <p id="u2159-10"><span id="u2159-8">02 / </span><span id="u2159-9">AFFORDABLE</span></p>
+      <p id="u2159-12">We gain when you improve. We turn inefficiencies into new profit and take a commission from that. No gain - no pain.</p>
+      <p id="u2159-13">&nbsp;</p>
+      <p id="u2159-16"><span id="u2159-14">03 / </span><span id="u2159-15">FAST</span></p>
+      <p id="u2159-18">We identify key inefficiencies and provide fast solutions to allow you quickly improve</p>
+     </div>
+     <div class="clearfix colelem" id="pu2156"><!-- group -->
+      <div class="clip_frame grpelem" id="u2156"><!-- image -->
+       <img class="block temp_no_img_src" id="u2156_img" data-orig-src="../images/19906-nsnpwr.png?crc=3925609038" alt="" width="314" height="276" src="../images/blank.gif?crc=4208392903"/>
+      </div>
+      <div class="clearfix grpelem shared_content" id="u2161-6" data-content-guid="u2161-6_content"><!-- content -->
+       <p>No gain -</p>
+       <p>&nbsp; No pay !</p>
+      </div>
+     </div>
+     <a class="anchor_item colelem shared_content" id="whoweare" data-content-guid="whoweare_content"></a>
+     <div class="clearfix colelem shared_content" id="u2239-6" data-content-guid="u2239-6_content"><!-- content -->
+      <p>Who</p>
+      <p>we are?</p>
+     </div>
+     <div class="clearfix colelem shared_content" id="u2246-4" data-content-guid="u2246-4_content"><!-- content -->
+      <p>Our team:</p>
+     </div>
+     <div class="clearfix colelem shared_content" id="u2240-4" data-content-guid="u2240-4_content"><!-- content -->
+      <p>Our team is formed from professional economists and managers, data scientists and programmers. We have international experience in research-intensive business development in across multiple industries including agriculture, construction, finance/banking, energy, and other.&nbsp; We complement that with an array of outsourced experts to provide the best solutions to address your specific needs.</p>
+     </div>
+     <div class="clearfix colelem shared_content" id="u2245-4" data-content-guid="u2245-4_content"><!-- content -->
+      <p>Meet the founders:</p>
+     </div>
+     <div class="clearfix colelem" id="pu2233"><!-- group -->
+      <div class="clip_frame clearfix grpelem" id="u2233"><!-- image -->
+       <img class="position_content temp_no_img_src" id="u2233_img" data-orig-src="../images/rewisephoto305x300.png?crc=3778673176" alt="" width="304" height="299" src="../images/blank.gif?crc=4208392903"/>
+      </div>
+      <div class="clip_frame grpelem" id="u2241" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=-0.6947,M12=-0.7193,M21=0.7193,M22=-0.6947,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-13" data-mu-ie-matrix-dy="-12"><!-- image -->
+       <img class="block temp_no_img_src" id="u2241_img" data-orig-src="../images/3919-crop-u2241.png?crc=3887724769" alt="" width="60" height="61" src="../images/blank.gif?crc=4208392903"/>
+      </div>
+     </div>
+     <div class="clearfix colelem shared_content" id="u2235-6" data-content-guid="u2235-6_content"><!-- content -->
+      <p id="u2235-2">Dr. Serghei Musaji</p>
+      <p id="u2235-4">Founder and CEO</p>
+     </div>
+     <div class="clearfix colelem shared_content" id="u2247-4" data-content-guid="u2247-4_content"><!-- content -->
+      <p>An economist with a PhD degree in Business Studies and Management from IE Business School, Spain. Academic Researcher with Professional experience in various managerial and analytic positions in a wide range of industries from&nbsp; Agribusiness and Real Estate to Finance, Banking; and Energy.&nbsp; Is an expert in data-intensive corporate development, using data analytics and graphical visualizations. Has profound knowledge of statistics, database&nbsp; management, graphical design, and programming.</p>
+     </div>
+     <div class="clearfix colelem" id="pu2236"><!-- group -->
+      <div class="clip_frame clearfix grpelem" id="u2236"><!-- image -->
+       <img class="position_content temp_no_img_src" id="u2236_img" data-orig-src="../images/rewisephoto2305x299.png?crc=4110229454" alt="" width="304" height="299" src="../images/blank.gif?crc=4208392903"/>
+      </div>
+      <div class="clip_frame grpelem" id="u2243" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=-0.6947,M12=-0.7193,M21=0.7193,M22=-0.6947,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-13" data-mu-ie-matrix-dy="-12"><!-- image -->
+       <img class="block temp_no_img_src" id="u2243_img" data-orig-src="../images/3919-crop-u2243.png?crc=3887724769" alt="" width="60" height="61" src="../images/blank.gif?crc=4208392903"/>
+      </div>
+     </div>
+     <div class="clearfix colelem shared_content" id="u2238-6" data-content-guid="u2238-6_content"><!-- content -->
+      <p id="u2238-2">Sergiy Polyachenko,</p>
+      <p id="u2238-4">Founder</p>
+     </div>
+     <div class="clearfix colelem shared_content" id="u2248-4" data-content-guid="u2248-4_content"><!-- content -->
+      <p>An economist, working towards completing a PhD degree in Economics&nbsp; of Civil Engineering. at the University of New Brunswick, Canada. Has substantial international research experience in various academic institutions and business organizations. Has profound knowledge of statistics and database management.</p>
+     </div>
+     <a class="anchor_item colelem shared_content" id="getintouch" data-content-guid="getintouch_content"></a>
+     <div class="clearfix colelem" id="pu2306"><!-- group -->
+      <div class="clip_frame grpelem" id="u2306"><!-- image -->
+       <img class="block temp_no_img_src" id="u2306_img" data-orig-src="../images/2742878-crop-u2306.png?crc=212144139" alt="" width="345" height="351" src="../images/blank.gif?crc=4208392903"/>
+      </div>
+      <div class="grpelem shared_content" id="u2308" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.9962,M12=0.0872,M21=-0.0872,M22=0.9962,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-9" data-mu-ie-matrix-dy="-14" data-content-guid="u2308_content"><!-- simple frame --></div>
+      <div class="clearfix grpelem shared_content" id="u2309-6" data-content-guid="u2309-6_content"><!-- content -->
+       <p>Get in</p>
+       <p>touch:</p>
+      </div>
+      <div class="clearfix grpelem shared_content" id="u2310-9" data-content-guid="u2310-9_content"><!-- content -->
+       <p>Click <span id="u2310-2">REWISE</span><span id="u2310-3"> </span>and provide us with some basic information on your business including the name of the firm, the industry, and the location. Please describe the main processes involved in your business activity and the areas you believe you require most of assistance with. Finally, don't forget to mention your name and the role you play in the firm.</p>
+       <p>We will get back to you within 1-3 business days to schedule a call and discuss our further steps.</p>
+      </div>
+     </div>
+     <div class="verticalspacer" data-offset-top="5398" data-content-above-spacer="5392" data-content-below-spacer="76"></div>
+    </div>
+   </div>
+  </div>
+  <div class="breakpoint" id="bp_380" data-max-width="380"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- column -->
+    <div class="browser_width colelem temp_no_id" data-orig-id="u1717-bw">
+     <div class="clearfix temp_no_id" data-orig-id="u1717"><!-- group -->
+      <div class="clip_frame grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-orig-id="u1723"><!-- image -->
+       <img class="block temp_no_id temp_no_img_src" data-orig-src="../images/rewise3-crop-u17232.png?crc=4081107540" alt="" width="63" height="67" data-orig-id="u1723_img" src="../images/blank.gif?crc=4208392903"/>
+      </div>
+      <span class="clearfix grpelem placeholder" data-placeholder-for="u1722-7_content"><!-- placeholder node --></span>
+      <span class="clearfix grpelem placeholder" data-placeholder-for="pu1718-4_content"><!-- placeholder node --></span>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pwhatwedo"><!-- group -->
+     <span class="anchor_item grpelem placeholder" data-placeholder-for="whatwedo_content"><!-- placeholder node --></span>
+     <div class="clearfix grpelem temp_no_id" data-orig-id="u1795"><!-- group -->
+      <span class="clearfix grpelem placeholder" data-placeholder-for="u1716-10_content"><!-- placeholder node --></span>
+      <div class="clip_frame clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-orig-id="u1714"><!-- image -->
+       <img class="position_content temp_no_id temp_no_img_src" data-orig-src="../images/on40s80-crop-u17142.png?crc=4183046506" alt="" width="217" height="117" data-orig-id="u1714_img" src="../images/blank.gif?crc=4208392903"/>
       </div>
      </div>
     </div>
-   </div>
-   <div class="clearfix colelem" id="pu2101"><!-- group -->
-    <div class="clip_frame grpelem" id="u2101" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- image -->
-     <img class="block" id="u2101_img" src="../images/2966327380x235.jpg?crc=180227443" alt="" width="380" height="235"/>
+    <div class="clearfix colelem temp_no_id" data-orig-id="pu1802-4"><!-- group -->
+     <span class="clearfix grpelem placeholder" data-placeholder-for="u1802-4_content"><!-- placeholder node --></span>
+     <div class="clearfix grpelem temp_no_id" data-orig-id="pu1804-4"><!-- column -->
+      <span class="clearfix colelem placeholder" data-placeholder-for="u1804-4_content"><!-- placeholder node --></span>
+      <span class="clearfix colelem placeholder" data-placeholder-for="u1803-7_content"><!-- placeholder node --></span>
+     </div>
     </div>
-    <div class="clearfix grpelem" id="u2104-8" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content -->
-     <p>Rewising</p>
-     <p>your</p>
-     <p>business</p>
+    <div class="clearfix colelem temp_no_id" data-orig-id="pu1805"><!-- group -->
+     <div class="clip_frame grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u1805"><!-- image -->
+      <img class="block temp_no_id temp_no_img_src" data-orig-src="../images/water-pollution-with-plastic-bags-river_1308-33737-crop-u18052.jpg?crc=4286691974" alt="" width="379" height="211" data-orig-id="u1805_img" src="../images/blank.gif?crc=4208392903"/>
+     </div>
+     <span class="clearfix grpelem placeholder" data-placeholder-for="u1807-5_content"><!-- placeholder node --></span>
     </div>
-    <div class="clearfix grpelem" id="u2149-6" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content -->
-     <p id="u2149-2">REWISE</p>
-     <p id="u2149-4"><span id="u2149-3">Canada</span></p>
+    <div class="clearfix colelem temp_no_id" data-orig-id="pu1866-4"><!-- group -->
+     <span class="clearfix grpelem placeholder" data-placeholder-for="u1866-4_content"><!-- placeholder node --></span>
+     <span class="clearfix grpelem placeholder" data-placeholder-for="u1867-17_content"><!-- placeholder node --></span>
     </div>
-   </div>
-   <a class="anchor_item colelem" id="whyyouneedus" data-sizePolicy="fixed" data-pintopage="page_fluidx"></a>
-   <div class="clearfix colelem" id="u2162-4"><!-- content -->
-    <p>Why you need us?</p>
-   </div>
-   <div class="clearfix colelem" id="u2160-7"><!-- content -->
-    <p>We believe that organizational data is a valuable source of knowledge that should foster growth. Unfortunately, this resource is often not given a proper value because high-quality analytics requires substantial cognitive effort, processing power, and upfront investment that few organizations may bear. We help to address that by offering both a top-level and affordable way to improve.</p>
-    <p>&nbsp;</p>
-    <p>We use your data to identify the key inefficiencies in your current activities that require optimization. We design a tailored solution to target those issues and implement it. Our services are paid from the added value that our solution generates. Basically, we invest in your performance and your growth is our target.</p>
-   </div>
-   <div class="clearfix colelem" id="u2158-6"><!-- content -->
-    <p>Our key</p>
-    <p>strengths:</p>
-   </div>
-   <div class="clearfix colelem" id="u2159-20"><!-- content -->
-    <p id="u2159-4"><span id="u2159">01 /</span><span id="u2159-2"> </span><span id="u2159-3">VALUABLE</span></p>
-    <p id="u2159-6">We take it from your current state of activity, turn it into a valuable data source, and use optimization mechanisms to bring you to a new level of performance.</p>
-    <p id="u2159-7">&nbsp;</p>
-    <p id="u2159-10"><span id="u2159-8">02 / </span><span id="u2159-9">AFFORDABLE</span></p>
-    <p id="u2159-12">We gain when you improve. We turn inefficiencies into new profit and take a commission from that. No gain - no pain.</p>
-    <p id="u2159-13">&nbsp;</p>
-    <p id="u2159-16"><span id="u2159-14">03 / </span><span id="u2159-15">FAST</span></p>
-    <p id="u2159-18">We identify key inefficiencies and provide fast solutions to allow you quickly improve</p>
-   </div>
-   <div class="clearfix colelem" id="pu2156"><!-- group -->
-    <div class="clip_frame grpelem" id="u2156" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- image -->
-     <img class="block" id="u2156_img" src="../images/19906-nsnpwr.png?crc=3925609038" alt="" width="348" height="306"/>
+    <div class="clearfix colelem temp_no_id" data-orig-id="pu2457"><!-- group -->
+     <div class="clearfix grpelem temp_no_id" data-orig-id="u2457"><!-- group -->
+      <div class="grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-orig-id="u1858"><!-- simple frame --></div>
+      <span class="clearfix grpelem placeholder" data-placeholder-for="u1859-6_content"><!-- placeholder node --></span>
+      <span class="clearfix grpelem placeholder" data-placeholder-for="u1868-4_content"><!-- placeholder node --></span>
+     </div>
+     <div class="clearfix grpelem temp_no_id" data-orig-id="u2469"><!-- group -->
+      <div class="grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-orig-id="u1861"><!-- simple frame --></div>
+      <span class="clearfix grpelem placeholder" data-placeholder-for="u1862-4_content"><!-- placeholder node --></span>
+      <span class="clearfix grpelem placeholder" data-placeholder-for="u1869-4_content"><!-- placeholder node --></span>
+     </div>
     </div>
-    <div class="clearfix grpelem" id="u2161-6"><!-- content -->
-     <p>No gain -</p>
-     <p>&nbsp; No pay !</p>
+    <div class="clearfix colelem temp_no_id" data-orig-id="pu2465"><!-- group -->
+     <div class="clearfix grpelem temp_no_id" data-orig-id="u2465"><!-- group -->
+      <div class="grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-orig-id="u1963"><!-- simple frame --></div>
+      <span class="clearfix grpelem placeholder" data-placeholder-for="u1964-4_content"><!-- placeholder node --></span>
+      <span class="clearfix grpelem placeholder" data-placeholder-for="u1968-4_content"><!-- placeholder node --></span>
+     </div>
+     <div class="clearfix grpelem temp_no_id" data-orig-id="u2473"><!-- group -->
+      <div class="clearfix grpelem temp_no_id" data-orig-id="u1965"><!-- group -->
+       <div class="grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-orig-id="u1966"><!-- simple frame --></div>
+       <span class="clearfix grpelem placeholder" data-placeholder-for="u1967-4_content"><!-- placeholder node --></span>
+      </div>
+      <span class="clearfix grpelem placeholder" data-placeholder-for="u1969-4_content"><!-- placeholder node --></span>
+     </div>
     </div>
-   </div>
-   <a class="anchor_item colelem" id="whoweare" data-sizePolicy="fixed" data-pintopage="page_fluidx"></a>
-   <div class="clearfix colelem" id="u2239-6"><!-- content -->
-    <p>Who</p>
-    <p>we are?</p>
-   </div>
-   <div class="clearfix colelem" id="u2246-4"><!-- content -->
-    <p>Our team:</p>
-   </div>
-   <div class="clearfix colelem" id="u2240-4"><!-- content -->
-    <p>Our team is formed from professional economists and managers, data scientists and programmers. We have international experience in research-intensive business development in across multiple industries including agriculture, construction, finance/banking, energy, and other.&nbsp; We complement that with an array of outsourced experts to provide the best solutions to address your specific needs.</p>
-   </div>
-   <div class="clearfix colelem" id="u2245-4"><!-- content -->
-    <p>Meet the founders:</p>
-   </div>
-   <div class="clearfix colelem" id="pu2233"><!-- group -->
-    <div class="clip_frame grpelem" id="u2233"><!-- image -->
-     <img class="block" id="u2233_img" src="../images/rewisephoto-crop-u2233.png?crc=406385005" alt="" data-heightwidthratio="1" data-image-width="299" data-image-height="299"/>
+    <span class="clearfix colelem placeholder" data-placeholder-for="pu1846-4_content"><!-- placeholder node --></span>
+    <div class="clearfix colelem temp_no_id" data-orig-id="pu2477"><!-- group -->
+     <div class="clearfix grpelem temp_no_id" data-orig-id="u2477"><!-- group -->
+      <div class="grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-orig-id="u1984"><!-- simple frame --></div>
+      <span class="clearfix grpelem placeholder" data-placeholder-for="u1985-4_content"><!-- placeholder node --></span>
+     </div>
+     <div class="clearfix grpelem temp_no_id" data-orig-id="u1986"><!-- group -->
+      <div class="grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-orig-id="u1987"><!-- simple frame --></div>
+      <span class="clearfix grpelem placeholder" data-placeholder-for="u1988-4_content"><!-- placeholder node --></span>
+     </div>
     </div>
-    <div class="clip_frame grpelem" id="u2241" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=-0.6947,M12=-0.7193,M21=0.7193,M22=-0.6947,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-13" data-mu-ie-matrix-dy="-12"><!-- image -->
-     <img class="block" id="u2241_img" src="../images/3919-crop-u2241.png?crc=3887724769" alt="" data-heightwidthratio="1.0166666666666666" data-image-width="60" data-image-height="61"/>
+    <div class="clearfix colelem temp_no_id" data-orig-id="pu2481"><!-- group -->
+     <div class="clearfix grpelem temp_no_id" data-orig-id="u2481"><!-- group -->
+      <div class="grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-orig-id="u1991"><!-- simple frame --></div>
+      <span class="clearfix grpelem placeholder" data-placeholder-for="u1992-4_content"><!-- placeholder node --></span>
+     </div>
+     <div class="clearfix grpelem temp_no_id" data-orig-id="u1993"><!-- group -->
+      <div class="grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fluidx" data-orig-id="u1994"><!-- simple frame --></div>
+      <span class="clearfix grpelem placeholder" data-placeholder-for="u1995-4_content"><!-- placeholder node --></span>
+     </div>
     </div>
-   </div>
-   <div class="clearfix colelem" id="u2235-6"><!-- content -->
-    <p id="u2235-2">Dr. Serghei Musaji</p>
-    <p id="u2235-4">Founder and CEO</p>
-   </div>
-   <div class="clearfix colelem" id="u2247-4"><!-- content -->
-    <p>An economist with a PhD degree in Business Studies and Management from IE Business School, Spain. Academic Researcher with Professional experience in various managerial and analytic positions in a wide range of industries from&nbsp; Agribusiness and Real Estate to Finance, Banking; and Energy.&nbsp; Is an expert in data-intensive corporate development, using data analytics and graphical visualizations. Has profound knowledge of statistics, database&nbsp; management, graphical design, and programming.</p>
-   </div>
-   <div class="clearfix colelem" id="pu2236"><!-- group -->
-    <div class="clip_frame grpelem" id="u2236"><!-- image -->
-     <img class="block" id="u2236_img" src="../images/rewisephoto2-crop-u2236.png?crc=476439951" alt="" data-heightwidthratio="1" data-image-width="299" data-image-height="299"/>
+    <span class="clearfix colelem placeholder" data-placeholder-for="u2044-6_content"><!-- placeholder node --></span>
+    <div class="clearfix colelem" id="pu2046"><!-- group -->
+     <span class="clip_frame grpelem placeholder" data-placeholder-for="u2046_content"><!-- placeholder node --></span>
+     <div class="clearfix grpelem" id="pu2045-4"><!-- column -->
+      <span class="clearfix colelem placeholder" data-placeholder-for="u2045-4_content"><!-- placeholder node --></span>
+      <span class="clearfix colelem placeholder" data-placeholder-for="u2042_content"><!-- placeholder node --></span>
+     </div>
     </div>
-    <div class="clip_frame grpelem" id="u2243" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=-0.6947,M12=-0.7193,M21=0.7193,M22=-0.6947,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-13" data-mu-ie-matrix-dy="-12"><!-- image -->
-     <img class="block" id="u2243_img" src="../images/3919-crop-u2243.png?crc=3887724769" alt="" data-heightwidthratio="1.0166666666666666" data-image-width="60" data-image-height="61"/>
+    <div class="clearfix colelem temp_no_id" data-orig-id="pu2101"><!-- group -->
+     <span class="clip_frame grpelem placeholder" data-placeholder-for="u2101_content"><!-- placeholder node --></span>
+     <span class="clearfix grpelem placeholder" data-placeholder-for="u2104-8_content"><!-- placeholder node --></span>
+     <span class="clearfix grpelem placeholder" data-placeholder-for="u2149-6_content"><!-- placeholder node --></span>
     </div>
-   </div>
-   <div class="clearfix colelem" id="u2238-6"><!-- content -->
-    <p id="u2238-2">Sergiy Polyachenko,</p>
-    <p id="u2238-4">Founder</p>
-   </div>
-   <div class="clearfix colelem" id="u2248-4"><!-- content -->
-    <p>An economist, working towards completing a PhD degree in Economics&nbsp; of Civil Engineering. at the University of New Brunswick, Canada. Has substantial international research experience in various academic institutions and business organizations. Has profound knowledge of statistics and database management.</p>
-   </div>
-   <a class="anchor_item colelem" id="getintouch" data-sizePolicy="fixed" data-pintopage="page_fluidx"></a>
-   <div class="clearfix colelem" id="pu2306"><!-- group -->
-    <div class="clip_frame grpelem" id="u2306"><!-- image -->
-     <img class="block" id="u2306_img" src="../images/2742878-crop-u2306.png?crc=212144139" alt="" data-heightwidthratio="1.017391304347826" data-image-width="345" data-image-height="351"/>
+    <span class="anchor_item colelem placeholder" data-placeholder-for="whyyouneedus_content"><!-- placeholder node --></span>
+    <span class="clearfix colelem placeholder" data-placeholder-for="u2162-4_content"><!-- placeholder node --></span>
+    <span class="clearfix colelem placeholder" data-placeholder-for="u2160-7_content"><!-- placeholder node --></span>
+    <span class="clearfix colelem placeholder" data-placeholder-for="u2158-6_content"><!-- placeholder node --></span>
+    <span class="clearfix colelem placeholder" data-placeholder-for="u2159-20_content"><!-- placeholder node --></span>
+    <div class="clearfix colelem temp_no_id" data-orig-id="pu2156"><!-- group -->
+     <div class="clip_frame grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u2156"><!-- image -->
+      <img class="block temp_no_id temp_no_img_src" data-orig-src="../images/19906-nsnpwr.png?crc=3925609038" alt="" width="348" height="306" data-orig-id="u2156_img" src="../images/blank.gif?crc=4208392903"/>
+     </div>
+     <span class="clearfix grpelem placeholder" data-placeholder-for="u2161-6_content"><!-- placeholder node --></span>
     </div>
-    <div class="grpelem" id="u2308" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.9962,M12=0.0872,M21=-0.0872,M22=0.9962,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-9" data-mu-ie-matrix-dy="-14"><!-- simple frame --></div>
-    <div class="clearfix grpelem" id="u2309-6"><!-- content -->
-     <p>Get in</p>
-     <p>touch:</p>
+    <span class="anchor_item colelem placeholder" data-placeholder-for="whoweare_content"><!-- placeholder node --></span>
+    <span class="clearfix colelem placeholder" data-placeholder-for="u2239-6_content"><!-- placeholder node --></span>
+    <span class="clearfix colelem placeholder" data-placeholder-for="u2246-4_content"><!-- placeholder node --></span>
+    <span class="clearfix colelem placeholder" data-placeholder-for="u2240-4_content"><!-- placeholder node --></span>
+    <span class="clearfix colelem placeholder" data-placeholder-for="u2245-4_content"><!-- placeholder node --></span>
+    <div class="clearfix colelem temp_no_id" data-orig-id="pu2233"><!-- group -->
+     <div class="clip_frame grpelem temp_no_id" data-orig-id="u2233"><!-- image -->
+      <img class="block temp_no_id temp_no_img_src" data-orig-src="../images/rewisephoto-crop-u2233.png?crc=406385005" alt="" data-heightwidthratio="1" data-image-width="299" data-image-height="299" data-orig-id="u2233_img" src="../images/blank.gif?crc=4208392903"/>
+     </div>
+     <div class="clip_frame grpelem temp_no_id" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=-0.6947,M12=-0.7193,M21=0.7193,M22=-0.6947,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-13" data-mu-ie-matrix-dy="-12" data-orig-id="u2241"><!-- image -->
+      <img class="block temp_no_id temp_no_img_src" data-orig-src="../images/3919-crop-u22412.png?crc=3887724769" alt="" data-heightwidthratio="1.0166666666666666" data-image-width="60" data-image-height="61" data-orig-id="u2241_img" src="../images/blank.gif?crc=4208392903"/>
+     </div>
     </div>
-    <div class="clearfix grpelem" id="u2310-9"><!-- content -->
-     <p>Click <span id="u2310-2">REWISE</span><span id="u2310-3"> </span>and provide us with some basic information on your business including the name of the firm, the industry, and the location. Please describe the main processes involved in your business activity and the areas you believe you require most of assistance with. Finally, don't forget to mention your name and the role you play in the firm.</p>
-     <p>We will get back to you within 1-3 business days to schedule a call and discuss our further steps.</p>
+    <span class="clearfix colelem placeholder" data-placeholder-for="u2235-6_content"><!-- placeholder node --></span>
+    <span class="clearfix colelem placeholder" data-placeholder-for="u2247-4_content"><!-- placeholder node --></span>
+    <div class="clearfix colelem temp_no_id" data-orig-id="pu2236"><!-- group -->
+     <div class="clip_frame grpelem temp_no_id" data-orig-id="u2236"><!-- image -->
+      <img class="block temp_no_id temp_no_img_src" data-orig-src="../images/rewisephoto2-crop-u2236.png?crc=476439951" alt="" data-heightwidthratio="1" data-image-width="299" data-image-height="299" data-orig-id="u2236_img" src="../images/blank.gif?crc=4208392903"/>
+     </div>
+     <div class="clip_frame grpelem temp_no_id" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=-0.6947,M12=-0.7193,M21=0.7193,M22=-0.6947,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-13" data-mu-ie-matrix-dy="-12" data-orig-id="u2243"><!-- image -->
+      <img class="block temp_no_id temp_no_img_src" data-orig-src="../images/3919-crop-u22432.png?crc=3887724769" alt="" data-heightwidthratio="1.0166666666666666" data-image-width="60" data-image-height="61" data-orig-id="u2243_img" src="../images/blank.gif?crc=4208392903"/>
+     </div>
     </div>
+    <span class="clearfix colelem placeholder" data-placeholder-for="u2238-6_content"><!-- placeholder node --></span>
+    <span class="clearfix colelem placeholder" data-placeholder-for="u2248-4_content"><!-- placeholder node --></span>
+    <span class="anchor_item colelem placeholder" data-placeholder-for="getintouch_content"><!-- placeholder node --></span>
+    <div class="clearfix colelem temp_no_id" data-orig-id="pu2306"><!-- group -->
+     <div class="clip_frame grpelem temp_no_id" data-orig-id="u2306"><!-- image -->
+      <img class="block temp_no_id temp_no_img_src" data-orig-src="../images/2742878-crop-u23062.png?crc=212144139" alt="" data-heightwidthratio="1.017391304347826" data-image-width="345" data-image-height="351" data-orig-id="u2306_img" src="../images/blank.gif?crc=4208392903"/>
+     </div>
+     <span class="grpelem placeholder" data-placeholder-for="u2308_content"><!-- placeholder node --></span>
+     <span class="clearfix grpelem placeholder" data-placeholder-for="u2309-6_content"><!-- placeholder node --></span>
+     <span class="clearfix grpelem placeholder" data-placeholder-for="u2310-9_content"><!-- placeholder node --></span>
+    </div>
+    <div class="verticalspacer" data-offset-top="5398" data-content-above-spacer="5392" data-content-below-spacer="76" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
    </div>
-   <div class="verticalspacer" data-offset-top="5398" data-content-above-spacer="5392" data-content-below-spacer="76" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
   </div>
   <!-- Other scripts -->
   <script type="text/javascript">
@@ -331,7 +485,7 @@ var suppressMissingFileError = false
 k[1]:null,k=k&&k[2]?k[2]:null;switch(k.toLowerCase()){case "css":i=i.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");g.className+=" "+i;i=a(d(g,"color"));k=a(d(g,"backgroundColor"));i!=0||k!=0?(Muse.assets.required.splice(j,1),"undefined"!=typeof b[l]&&(i!=b[l]>>>24||k!=(b[l]&16777215))&&Muse.assets.outOfDate.push(l)):j++;g.className="version";break;case "js":j++;break;default:throw Error("Unsupported file type: "+k);}}c?c().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
 g.parentNode.removeChild(g);if(Muse.assets.outOfDate.length||Muse.assets.required.length)g="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",f&&Muse.assets.outOfDate.length&&(g+="\nOut of date: "+Muse.assets.outOfDate.join(",")),f&&Muse.assets.required.length&&(g+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(g+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(g)):alert(g)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
 setTimeout(function(){f(!0)},5E3):f()}};
-var muse_init=function(){require.config({baseUrl:"../"});require(["jquery","museutils","whatinput","jquery.watch"],function(c){var $ = c;$(document).ready(function(){try{
+var muse_init=function(){require.config({baseUrl:"../"});require(["jquery","museutils","whatinput","jquery.watch","jquery.museresponsive"],function(c){var $ = c;$(document).ready(function(){try{
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
@@ -339,7 +493,7 @@ Muse.Utils.resizeHeight('.browser_width');/* resize height */
 Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
 Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
 Muse.Utils.fullPage('#page');/* 100% height page */
-Muse.Utils.showWidgetsWhenReady();/* body */
+$( '.breakpoint' ).registerBreakpoint();/* Register breakpoints */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 }catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
 
