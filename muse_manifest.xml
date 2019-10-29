@@ -1,16 +1,16 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="rewise.ca" resolutions="1x" timestamp="1572316136106">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="rewise.ca,rewise.me,seiumu.github.io/rewise/index.html,seiumu.github.io/rewise/phone/index.html" resolutions="1x" timestamp="1572359319194">
   <folder name="phone">
     <folder name="css">
-      <file name="index.css" crc="86626349" ref="phone>index"/>
-      <file name="iefonts_index.css" crc="3870987204" ref="phone>index"/>
+      <file name="index.css" crc="83498184" ref="phone>index"/>
+      <file name="iefonts_index.css" crc="315813974" ref="phone>index"/>
       <file name="nomq_index.css" crc="3824530138" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="134050377" seo="true" mt="1572316102536" redirect="true"/>
+    <file name="index.html" crc="3878703663" seo="true" mt="1572359140379" redirect="true"/>
   </folder>
   <folder name="css">
-    <file name="site_global.css" crc="4009175282"/>
-    <file name="index.css" crc="3797154440" ref="index"/>
-    <file name="nomq_index.css" crc="4226677295" ref="index"/>
+    <file name="site_global.css" crc="3909055994"/>
+    <file name="index.css" crc="375528423" ref="index"/>
+    <file name="nomq_index.css" crc="270386637" ref="index"/>
     <file name="iefonts_index.css" crc="3824530138" ref="index"/>
   </folder>
   <folder name="scripts">
@@ -38,14 +38,15 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="19906-nsnpwr.png" crc="3925609038" seo="true" ref="index">
+    <file name="19906-nsnpwr.png" crc="3925609038" seo="true" ref="index:phone>index">
+      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
     <file name="3919-crop-u424.png" crc="3887724769" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="2742878-crop-u385.png" crc="4077370500" seo="true" ref="index">
+    <file name="2742878-crop-u385.png" crc="4214447110" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="background-shapes1.gif" crc="184288897" ref="index">
@@ -58,7 +59,7 @@
     <file name="3919-crop-u4242.png" crc="405624984" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="2742878-crop-u3852.png" crc="4077370500" seo="true" ref="index">
+    <file name="2742878-crop-u3852.png" crc="4214447110" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="blank.gif" crc="4208392903" ref="index"/>
@@ -83,7 +84,7 @@
     <file name="rewise3-crop-u1723.png" crc="4081107540" seo="true" ref="phone>index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="on40s80-crop-u1714.png" crc="4190459565" seo="true" ref="phone>index">
+    <file name="on40s80-crop-u1714.png" crc="4183046506" seo="true" ref="phone>index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="water-pollution-with-plastic-bags-river_1308-33737-crop-u1805.jpg" crc="4286691974" seo="true" ref="phone>index">
@@ -93,6 +94,27 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
+    <file name="list185x185.png" crc="35601657" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="2966327380x235.jpg" crc="180227443" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="rewisephoto-crop-u2233.png" crc="4199784548" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="3919-crop-u2241.png" crc="3887724769" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="rewisephoto2-crop-u2236.png" crc="4177345428" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="3919-crop-u2243.png" crc="3887724769" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="2742878-crop-u2306.png" crc="212144139" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
   </folder>
-  <file name="index.html" crc="4142287101" seo="true" mt="1572315424764" redirect="true"/>
+  <file name="index.html" crc="105122720" seo="true" mt="1572359222316" redirect="true"/>
 </manifest>
