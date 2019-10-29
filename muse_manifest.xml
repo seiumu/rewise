@@ -1,11 +1,10 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="rewise.ca,rewise.me,seiumu.github.io/rewise/index.html,seiumu.github.io/rewise/phone/index.html" resolutions="1x" timestamp="1572359319194">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="rewise.ca,rewise.me,seiumu.github.io/rewise/index.html,seiumu.github.io/rewise/phone/index.html" resolutions="1x" timestamp="1572359963558">
   <folder name="phone">
     <folder name="css">
-      <file name="index.css" crc="83498184" ref="phone>index"/>
+      <file name="index.css" crc="4136069599" ref="phone>index"/>
       <file name="iefonts_index.css" crc="315813974" ref="phone>index"/>
-      <file name="nomq_index.css" crc="3824530138" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="3878703663" seo="true" mt="1572359140379" redirect="true"/>
+    <file name="index.html" crc="261405037" seo="true" mt="1572359940016" redirect="true"/>
   </folder>
   <folder name="css">
     <file name="site_global.css" crc="3909055994"/>
@@ -39,8 +38,6 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="19906-nsnpwr.png" crc="3925609038" seo="true" ref="index:phone>index">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
     <file name="3919-crop-u424.png" crc="3887724769" seo="true" ref="index">
@@ -94,25 +91,25 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="list185x185.png" crc="35601657" seo="true" ref="phone>index">
-      <caption webpage="index" alt=""/>
-    </file>
     <file name="2966327380x235.jpg" crc="180227443" seo="true" ref="phone>index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="rewisephoto-crop-u2233.png" crc="4199784548" seo="true" ref="phone>index">
+    <file name="rewisephoto-crop-u2233.png" crc="406385005" seo="true" ref="phone>index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="3919-crop-u2241.png" crc="3887724769" seo="true" ref="phone>index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="rewisephoto2-crop-u2236.png" crc="4177345428" seo="true" ref="phone>index">
+    <file name="rewisephoto2-crop-u2236.png" crc="476439951" seo="true" ref="phone>index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="3919-crop-u2243.png" crc="3887724769" seo="true" ref="phone>index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="2742878-crop-u2306.png" crc="212144139" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="list196x196.png" crc="185660323" seo="true" ref="phone>index">
       <caption webpage="index" alt=""/>
     </file>
   </folder>
