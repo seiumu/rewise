@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://rewise.ca/index.html</loc>
-    <lastmod>2019-10-27</lastmod>
+    <lastmod>2019-10-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -24,9 +24,6 @@
       <image:loc>http://rewise.ca/images/19906-nsnpwr.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://rewise.ca/images/20617164_1477567695619835_6902816393329541025_o351x354.png</image:loc>
-    </image:image>
-    <image:image>
       <image:loc>http://rewise.ca/images/3919-crop-u424.png</image:loc>
     </image:image>
     <image:image>
@@ -42,10 +39,25 @@
       <image:loc>http://rewise.ca/images/3919-crop-u4242.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://rewise.ca/images/20617164_1477567695619835_6902816393329541025_o-crop-u369.png</image:loc>
+      <image:loc>http://rewise.ca/images/2742878-crop-u3852.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://rewise.ca/images/2742878-crop-u3852.png</image:loc>
+      <image:loc>http://rewise.ca/images/rewisephoto357x351.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rewise.ca/images/rewisephoto2357x351.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rewise.ca/images/3919-crop-u1541.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rewise.ca/images/3919-crop-u15412.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rewise.ca/images/rewisephoto-crop-u369.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rewise.ca/images/rewisephoto2-crop-u1538.png</image:loc>
     </image:image>
   </url>
 </urlset>
